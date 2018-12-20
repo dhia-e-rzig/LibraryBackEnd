@@ -85,13 +85,14 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+
 				<configuration>
 					<mainClass>act1.SpringBootStart.src.main.java.com.com.boot.start.Act1Application</mainClass>
 				</configuration>
+
 			</plugin>
 		</plugins>
 	</build>
-
 
 
 

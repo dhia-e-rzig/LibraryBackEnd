@@ -1,0 +1,12 @@
+com\module1\Domain\Auteur.class
+com\module1\Domain\Client.class
+com\module1\Domain\CarteBancaire.class
+com\module1\Repository\CommandesRepository.class
+com\module1\Domain\Livre.class
+com\module1\Repository\ClientsRepository.class
+com\module1\Repository\AuteursRepository.class
+com\module1\Repository\PromotionsRepository.class
+com\module1\Domain\Commande.class
+com\module1\Domain\Promotion.class
+com\module1\Repository\LivresRepository.class
+com\module1\Repository\CartesBancairesRepository.class

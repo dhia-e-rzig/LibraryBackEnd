@@ -1,0 +1,6 @@
+com\module2\Business\LivresBusiness.class
+com\module2\Business\PromotionsBusiness.class
+com\module2\Business\CommandesBusiness.class
+com\module2\Business\AuteursBusiness.class
+com\module2\Business\CartesBancairesBusiness.class
+com\module2\Business\ClientsBusiness.class

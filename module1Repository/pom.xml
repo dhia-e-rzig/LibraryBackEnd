@@ -10,6 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
 
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -21,6 +22,7 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+
 
     <artifactId>module1Repository</artifactId>
 

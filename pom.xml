@@ -3,19 +3,19 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.tpfw.act1</groupId>
-	<artifactId>act1</artifactId>
+	<groupId>com.bookshop</groupId>
+	<artifactId>backend</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+
 	<modules>
-        <module>module1Repository</module>
+        <module>com.module1.repository</module>
 		<module>module2Business</module>
 		<module>Module3Representation</module>
 		<module>SpringBootStart</module>
 	</modules>
 	<packaging>pom</packaging>
 
-	<name>act1</name>
-	<description>TP framework</description>
+	<name>BackEND</name>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -40,6 +40,11 @@
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter</artifactId>
+		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
@@ -88,7 +93,15 @@
 
 				<configuration>
 					<mainClass>act1.SpringBootStart.src.main.java.com.com.boot.start.Act1Application</mainClass>
+					<executable>true</executable>
 				</configuration>
+				<executions>
+					<execution>
+						<goals>
+							<goal>repackage</goal>
+						</goals>
+					</execution>
+				</executions>
 
 			</plugin>
 		</plugins>

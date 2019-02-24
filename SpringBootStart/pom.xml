@@ -3,8 +3,8 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>act1</artifactId>
-        <groupId>com.tpfw.act1</groupId>
+        <groupId>com.bookshop</groupId>
+        <artifactId>backend</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
@@ -12,21 +12,38 @@
     <artifactId>SpringBootStart</artifactId>
     <dependencies>
         <dependency>
-            <groupId>com.tpfw.act1</groupId>
-            <artifactId>module2Business</artifactId>
+            <groupId>com.bookshop</groupId>
+            <artifactId>com.module1.Repository</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>com.tpfw.act1</groupId>
-            <artifactId>module1Repository</artifactId>
+            <groupId>com.bookshop</groupId>
+            <artifactId>com.module2.Business</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>com.tpfw.act1</groupId>
-            <artifactId>Module3Representation</artifactId>
+            <groupId>com.bookshop</groupId>
+            <artifactId>com.module3.Representation</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
-
+    <!--<build>-->
+        <!--<plugins>-->
+            <!--<plugin>-->
+                <!--<groupId>org.apache.maven.plugins</groupId>-->
+                <!--<artifactId>maven-jar-plugin</artifactId>-->
+                <!--<executions>-->
+                    <!--<execution>-->
+                        <!--<goals>-->
+                            <!--<goal>jar</goal>-->
+                        <!--</goals>-->
+                        <!--<configuration>-->
+                            <!--<classifier>exec</classifier>-->
+                        <!--</configuration>-->
+                    <!--</execution>-->
+                <!--</executions>-->
+            <!--</plugin>-->
+        <!--</plugins>-->
+    <!--</build>-->
 
 </project>

@@ -15,7 +15,7 @@ import java.util.Set;
 @AllArgsConstructor
 @NoArgsConstructor
 
-public class Promotion {
+class Promotion {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
